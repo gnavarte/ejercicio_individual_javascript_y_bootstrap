@@ -1,0 +1,22 @@
+/* Footer sticky */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+/* Personalización de inputs */
+.form-styled {
+    border: 2px solid #007bff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-styled:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 5px rgba(0, 91, 187, 0.5);
+}
